@@ -4,7 +4,7 @@ import React, { use, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import { useSearchParams } from "next/navigation";
 
-const Generate = () => {
+const GenerateContent = () => {
 
   const searchParams = useSearchParams();
   // const [link, setLink] = useState("");
@@ -160,4 +160,4 @@ const Generate = () => {
   );
 };
 
-export default Generate;
+export default GenerateContent;
